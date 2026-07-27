@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html class="light stitch-anim-fade-in" lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>PT ANDALAN CAHAYA GEMILANG - Solusi Kelistrikan &amp; Teknik Terpercaya</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700;800&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@500&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#815500",
+                        "surface-bright": "#f9f9f9",
+                        "tertiary": "#5c5f63",
+                        "secondary": "#5f5e5e",
+                        "primary-fixed": "#ffddb2",
+                        "on-secondary-fixed-variant": "#474746",
+                        "on-surface-variant": "#514534",
+                        "surface": "#f9f9f9",
+                        "surface-container-low": "#f3f3f3",
+                        "on-primary-fixed": "#291800",
+                        "on-error": "#ffffff",
+                        "secondary-fixed": "#e5e2e1",
+                        "primary-container": "#e69e1c",
+                        "inverse-on-surface": "#f1f1f1",
+                        "surface-tint": "#815500",
+                        "secondary-fixed-dim": "#c8c6c5",
+                        "error": "#ba1a1a",
+                        "on-surface": "#1a1c1c",
+                        "inverse-surface": "#2f3131",
+                        "secondary-container": "#e2dfde",
+                        "on-background": "#1a1c1c",
+                        "on-error-container": "#93000a",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#191c1f",
+                        "on-secondary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#eeeeee",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#593a00",
+                        "surface-container-high": "#e8e8e8",
+                        "on-tertiary-container": "#3d4044",
+                        "tertiary-fixed": "#e0e2e7",
+                        "primary-fixed-dim": "#ffb94c",
+                        "background": "#f9f9f9",
+                        "on-primary-fixed-variant": "#624000",
+                        "on-secondary-fixed": "#1b1b1c",
+                        "surface-container-highest": "#e2e2e2",
+                        "tertiary-container": "#aaacb1",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#636262",
+                        "inverse-primary": "#ffb94c",
+                        "outline": "#847562",
+                        "surface-dim": "#dadada",
+                        "outline-variant": "#d6c4ae",
+                        "surface-variant": "#e2e2e2",
+                        "on-tertiary-fixed-variant": "#44474b",
+                        "tertiary-fixed-dim": "#c4c6cb"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "max-width": "1280px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "label-md": ["JetBrains Mono"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "body-md": ["Inter"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "body-lg": ["Inter"],
+                        "headline-sm": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "label-md": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "headline-lg-mobile": ["36px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "headline-md": ["32px", { "lineHeight": "1.2", "fontWeight": "700" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .circuit-pattern {
+            background-image: radial-gradient(circle at 2px 2px, #e2e2e2 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+
+        .industrial-border {
+            box-shadow: 8px 8px 0px 0px #1a1c1c;
+        }
+
+        .hard-shadow {
+            box-shadow: 8px 8px 0px 0px rgba(26, 28, 28, 1);
+        }
+
+        .hard-shadow-primary {
+            box-shadow: 4px 4px 0px 0px #815500;
+        }
+
+        .diagonal-stripes {
+            background: repeating-linear-gradient(45deg, #e69e1c, #e69e1c 10px, #1a1c1c 10px, #1a1c1c 20px);
+        }
+
+        .hero-arch {
+            border-radius: 1000px 1000px 0 0;
+        }
+
+        .geometric-block {
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
+        }
+
+        .diagonal-cut {
+            clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background text-on-background font-body-md selection:bg-primary-container selection:text-on-primary-container pb-0 overflow-y-auto">
+    <!-- Navigation -->
+    <header class="bg-surface border-b-2 border-primary sticky top-0 z-50">
+        <nav
+            class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-max-width mx-auto">
+            <div class="font-headline-sm text-headline-sm font-black text-on-surface">ACG</div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface hover:text-primary transition-colors duration-200"
+                    href="#home">Home</a>
+                <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface hover:text-primary transition-colors duration-200"
+                    href="#tentang-kami">Tentang Kami</a><a
+                    class="font-label-md text-label-md uppercase tracking-wider text-on-surface hover:text-primary transition-colors duration-200"
+                    href="#keunggulan-kami">Keunggulan</a>
+                <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface hover:text-primary transition-colors duration-200"
+                    href="#layanan">Layanan</a>
+                <a class="font-label-md text-label-md uppercase tracking-wider text-on-surface hover:text-primary transition-colors duration-200"
+                    href="#lampiran">Lampiran</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a class="hidden sm:inline-block bg-primary text-on-primary px-6 py-2 font-label-md text-label-md uppercase tracking-widest hover:bg-primary-container transition-all active:scale-95"
+                    href="#hubungi-kami">
+                    Hubungi Kami
+                </a>
+                <button id="menu-toggle"
+                    class="md:hidden text-on-surface hover:text-primary focus:outline-none flex items-center">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Menu Drawer -->
+    <div id="mobile-menu"
+        class="fixed inset-0 bg-on-background/95 z-50 transform translate-x-full transition-transform duration-300 md:hidden flex flex-col justify-center items-center space-y-8">
+        <button id="menu-close"
+            class="absolute top-6 right-6 text-white hover:text-primary-container focus:outline-none">
+            <span class="material-symbols-outlined text-4xl">close</span>
+        </button>
+        <a class="font-label-md text-xl text-white hover:text-primary-container transition-colors uppercase tracking-wider mobile-link"
+            href="#home">Home</a>
+        <a class="font-label-md text-xl text-white hover:text-primary-container transition-colors uppercase tracking-wider mobile-link"
+            href="#tentang-kami">Tentang Kami</a>
+        <a class="font-label-md text-xl text-white hover:text-primary-container transition-colors uppercase tracking-wider mobile-link"
+            href="#keunggulan-kami">Keunggulan</a>
+        <a class="font-label-md text-xl text-white hover:text-primary-container transition-colors uppercase tracking-wider mobile-link"
+            href="#layanan">Layanan</a>
+        <a class="font-label-md text-xl text-white hover:text-primary-container transition-colors uppercase tracking-wider mobile-link"
+            href="#lampiran">Lampiran</a>
+        <a class="bg-primary text-on-primary px-8 py-3 font-label-md text-base uppercase tracking-widest hover:bg-primary-container transition-all mobile-link"
+            href="#hubungi-kami">Hubungi Kami</a>
+    </div>
+    <main class="pb-0">
+        <!-- Section 1: Hero (SCREEN_6) -->
+        <section
+            class="relative min-h-[600px] lg:min-h-[800px] py-12 lg:py-0 flex items-center overflow-hidden bg-on-background transition-all duration-1000 opacity-100 translate-y-0"
+            id="home">
+            <div class="absolute inset-0 opacity-40">
+                <div class="w-full h-full bg-cover bg-center"
+                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAGY7v4D6nPqFdRUQCdatwEAt7-kcuBI2uZ3B4Dem5TBI8TykE1AZ6qwza718DMJReW-mLyv60uTxxGLnuVcSQgSH1qZB1FkXpwi-Vx4E6sqOVVkRTAT5uHpQgG_of19VWQiwx5lN3dhL8rq3I8Sv2G_aQ7pqo9mvq0RZszp3POE4CJjVt71jUJ_IdJZ--Gn-0GDHfIu0LVGqhyBPoN3FBuOeZETsnwQhhxwnTq7zcQF4f5R7sOrb9a4dcF4zjeFsQUpSGBQttYlYI')">
+                </div>
+            </div>
+            <div
+                class="relative w-full max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-12 gap-gutter items-center">
+                <div class="col-span-12 lg:col-span-7 py-12 lg:py-20">
+
+                    <h1
+                        class="font-display-lg text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-8 leading-tight font-bold">
+                        Kontraktor Mechanical Electrical Plumbing<br><span class="text-primary-container">Andalan
+                            Anda</span></h1>
+                    <p class="font-body-lg text-base md:text-body-lg text-surface-variant max-w-xl mb-10">Mitra
+                        Strategis Anda Dalam Menyediakan Pekerjaan MEP Dengan Standar Mutu Yang Tinggi Dan Sesuai
+                        Regulasi.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a class="bg-primary-container text-on-primary-container px-6 sm:px-10 py-3 sm:py-4 font-headline-sm text-sm sm:text-headline-sm uppercase tracking-tight industrial-border hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all inline-block"
+                            href="#layanan">
+                            Eksplorasi Layanan
+                        </a>
+                        <a class="border-2 border-white text-white px-6 sm:px-10 py-3 sm:py-4 font-headline-sm text-sm sm:text-headline-sm uppercase tracking-tight hover:bg-white hover:text-on-background transition-all inline-block"
+                            href="#tentang-kami">
+                            Profil Perusahaan
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden lg:block col-span-5 relative">
+                    <div
+                        class="aspect-square bg-primary-container rounded-full overflow-hidden border-8 border-on-background relative industrial-border">
+                        <img class="w-full h-full object-cover"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBJdX-iFjt2TfPUKdtj0ILJUoKy_BNaM5vW5GH-fQbWxY7M2XzFMGqRyoixZoUcqWdleN0XomjQkir2oD5BftSxaAAW2Yz3x_GB4LOZ3OD04b_rHN2AwX_SgEL--AFg5LJ6-a-YeOPy3V0sABkSk28iVFzh6YWyV2BYREL8ts5SoKq0GCWAnlrbUd50O_eeCL_kha9VK0HJ8rLlb2lQV9h6JFDngCOAbM5XbaXgfE6aNrIqh9KUJ70XWwnEcMn5-HsO2pZJHJp8Ew">
+                        <div class="absolute bottom-10 right-10 bg-white p-6 industrial-border">
+                            <div class="font-display-lg text-display-lg text-on-background leading-none">20+</div>
+                            <div class="font-label-md text-label-md uppercase text-primary">Tahun Pengalaman</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 2: Stats (SCREEN_6) -->
+        <section
+            class="py-12 md:py-24 bg-surface border-on-background transition-all duration-1000 opacity-100 translate-y-0">
+            <div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter">
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- Section 3: About Us & Vision (SCREEN_5) -->
+        <section
+            class="relative overflow-hidden pb-24 circuit-pattern transition-all duration-1000 opacity-100 translate-y-0 pt-12"
+            id="tentang-kami">
+            <div
+                class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative flex justify-center lg:justify-start">
+                    <div
+                        class="relative w-full max-w-[320px] md:max-w-[400px] bg-primary-container hero-arch p-4 flex flex-col items-center justify-start pt-12 shadow-2xl pb-12">
+                        <div
+                            class="absolute -top-4 left-1/2 -translate-x-1/2 w-48 h-48 bg-white rounded-full flex items-center justify-center p-8 border-4 border-primary z-20">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpD1clYs2OZisxeD-jd0228donRBv4gU9nE0VL5V3gdGGJMHw0b2MFzwb6MA9YfoIzX5sP7YiWj_GyMhGcGknoOjYLhxR0IIEgjuMI13LseF2ZlWAkWopNDYWw-ID1lyXaAVekj4ZpEkfi_WfmbR1vKx7XCWTHcCIaMly7NaWnIjOnrTBNkyI4jL0pIxDn6z5e7sSMx2yl0VvL8EoufYtQwY7Rry7imvEfOkgLpPWDSTj6jFdLEqCbFQ8ex7AE34MkeZhO5nUJdvtBiw"
+                                alt="ACG Logo" class="w-full h-full object-cover rounded-full">
+                        </div>
+                        <div
+                            class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-8 border-white/20 mt-12 mb-16">
+                            <img class="w-full h-full object-cover grayscale-[0.2] contrast-125"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHR0o0VeOxHkQ6T-IvfUrpRauXugCNZ6lU545MnYfO87SPe-JjeTlQBX_-E4m6_2oWu7IZF9PgdqZj3weJZ8cNLgO697KOMVSFAPSwlGbg84Th4RmPKCda3FcWjVVlyYPkPI6j8Sv4cLUFBnmBKdV7S9QkRF9yT_nx6j9-AT2a8IpV0eypZ4amS4rq3ImNiYIGp_ErLxznV3vJWtGXAo6O0xan-7MQXoaZ8CwtXiZZ8IR6DtUf6no4KrEluyQdFWp1goD3MAWUq6c">
+                        </div>
+                        <h2
+                            class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface text-center leading-none mt-auto mb-8">
+                            Tentang<br>Kami
+                        </h2>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <span class="w-12 h-1 bg-primary"></span>
+                            <span class="font-label-md text-label-md text-primary uppercase tracking-[0.2em]">Profil
+                                Perusahaan</span>
+                        </div>
+                        <h3
+                            class="font-headline-lg text-headline-lg-mobile md:text-headline-lg leading-tight text-on-surface">
+                            PT ANDALAN CAHAYA GEMILANG</h3>
+                    </div>
+                    <div class="font-body-lg text-body-lg text-on-surface-variant space-y-6 leading-relaxed">
+                        <p class="">Sistem mekanikal, elektrikal, dan plumbing merupakan bagian penting dalam sebuah
+                            bangunan yang memerlukan perencanaan serta pelaksanaan yang tepat agar berfungsi dengan aman
+                            dan optimal. Kesalahan instalasi maupun keterlambatan pekerjaan dapat berdampak pada
+                            kenyamanan, efisiensi operasional, hingga biaya perbaikan yang lebih besar di kemudian hari.
+                        </p>
+                        <p class=""><strong>PT ANDALAN CAHAYA GEMILANG</strong> hadir sebagai kontraktor MEP yang
+                            menyediakan layanan instalasi dan pengerjaan sistem elektrikal, plumbing, tata udara, serta
+                            elektronik untuk berbagai kebutuhan bangunan. Dengan dukungan tenaga profesional dan
+                            pengalaman di bidangnya, kami berkomitmen menghadirkan pekerjaan yang berkualitas, aman,
+                            serta sesuai dengan target waktu yang telah disepakati.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Vision Bento Style -->
+            <div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop mt-12 md:mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+                    <div
+                        class="lg:col-span-5 bg-primary p-6 sm:p-12 flex flex-col justify-between geometric-block text-white">
+                        <div class="space-y-6">
+                            <span class="material-symbols-outlined text-surface text-5xl"
+                                style="font-variation-settings: 'FILL' 1;">visibility</span>
+                            <h3
+                                class="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase italic tracking-tighter">
+                                Visi Kami</h3>
+                            <p class="font-body-lg text-base md:text-body-lg leading-relaxed text-primary-fixed">
+                                Menjadi Kontraktor MEP Terpercaya Di Indonesia Dalam Menghadirkan Sistem Teknik Bangunan
+                                Yang Berkualitas, Aman, Dan Tepat Waktu, Dengan Standar Mutu Yang Tinggi Dan Sesuai
+                                Regulasi.</p>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-7 space-y-gutter">
+                        <div
+                            class="bg-on-background border-2 border-primary-container/30 p-6 sm:p-12 h-full flex flex-col justify-center group hover:border-primary-container transition-all duration-300">
+                            <div class="space-y-6">
+                                <div class="flex items-center gap-4">
+                                    <span class="material-symbols-outlined text-primary-container text-5xl"
+                                        style="font-variation-settings: 'FILL' 1;">rocket_launch</span>
+                                    <h3
+                                        class="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase italic tracking-tighter text-white">
+                                        Misi Kami</h3>
+                                </div>
+                                <ul
+                                    class="font-body-lg text-base md:text-body-lg leading-relaxed text-surface-variant space-y-3 list-none">
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="material-symbols-outlined text-primary-container text-xl mt-1">check_circle</span>
+                                        <span class="">Memberikan hasil pekerjaan MEP dengan standar mutu yang tinggi
+                                            dan sesuai regulasi.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="material-symbols-outlined text-primary-container text-xl mt-1">check_circle</span>
+                                        <span class="">Menyelesaikan setiap proyek sesuai jadwal yang telah
+                                            disepakati.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="material-symbols-outlined text-primary-container text-xl mt-1">check_circle</span>
+                                        <span class="">Menerapkan standar keselamatan dan kesehatan kerja secara
+                                            konsisten pada setiap proyek.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="material-symbols-outlined text-primary-container text-xl mt-1">check_circle</span>
+                                        <span class="">Membangun hubungan kerja sama jangka panjang melalui integritas
+                                            dan tanggung jawab.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span
+                                            class="material-symbols-outlined text-primary-container text-xl mt-1">check_circle</span>
+                                        <span class="">Mengembangkan kompetensi tim serta teknologi kerja yang lebih
+                                            efektif dan berkelanjutan.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 4: Core Values (SCREEN_5) -->
+        <section
+            class="py-12 md:py-24 bg-white border-y border-outline-variant transition-all duration-1000 opacity-100 translate-y-0"
+            id="keunggulan-kami">
+            <div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop">
+                <div class="text-center max-w-2xl mx-auto mb-12 md:mb-16">
+                    <h3 class="font-label-md text-label-md text-primary uppercase tracking-widest mb-4">Nilai-Nilai Inti
+                    </h3>
+                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Keunggulan
+                        Kami</h2>
+                </div>
+                <div
+                    class="flex overflow-x-auto gap-8 pb-8 scrollbar-thin scrollbar-thumb-primary scrollbar-track-surface-container">
+                    <div
+                        class="min-w-[300px] flex-shrink-0 p-8 border-2 border-on-surface-variant/10 hover:border-primary transition-colors flex flex-col items-center text-center">
+                        <div class="w-16 h-16 bg-surface-container-high flex items-center justify-center mb-6">
+                            <span class="material-symbols-outlined text-primary text-3xl">engineering</span>
+                        </div>
+                        <h4 class="font-headline-sm text-headline-sm mb-4">Tenaga Profesional</h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant"></p>
+                        <p class="cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start para-style-body"
+                            style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --8sD0Kg: none; font-family: YAFdJjbTu24_0, _fb_, auto; --cyV3ZQ: 16px; --gJPlXQ: 1.4; --s8NbEA: p; line-height: 22px;">
+                            <span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); --Ys-XuQ: none; font-kerning: none;">Didukung
+                                tim yang memiliki kompetensi dan pengalaman dalam</span><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); --Ys-XuQ: none; font-kerning: none;"> </span>
+                        </p>
+                        <p class="cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start para-style-body"
+                            style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --8sD0Kg: none; font-family: YAFdJjbTu24_0, _fb_, auto; --cyV3ZQ: 16px; --gJPlXQ: 1.4; --s8NbEA: p; line-height: 22px;">
+                            <span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); --Ys-XuQ: none; font-kerning: none;">pekerjaan
+                                MEP.</span>
+                        </p>
+                        <p></p>
+                    </div>
+                    <div
+                        class="min-w-[300px] flex-shrink-0 p-8 border-2 border-primary transition-colors flex flex-col items-center text-center bg-surface-container-lowest">
+                        <div class="w-16 h-16 bg-primary flex items-center justify-center mb-6">
+                            <span class="material-symbols-outlined text-white text-3xl">speed</span>
+                        </div>
+                        <h4 class="font-headline-sm text-headline-sm mb-4"><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(56,56,56,var(--O42jJQ,1)); caret-color: rgb(56, 56, 56); --Ys-XuQ: none; font-kerning: none;">Kinerja
+                                Optimal</span></h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant"></p>
+                        <p class="cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start para-style-body"
+                            style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --8sD0Kg: none; font-family: YAFdJjbTu24_0, _fb_, auto; --cyV3ZQ: 16px; --gJPlXQ: 1.4; --s8NbEA: p; line-height: 22px;">
+                            <span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); --Ys-XuQ: none; font-kerning: none;">Setiap
+                                pekerjaan dilaksanakan secara efektif untuk mendukung</span><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); --Ys-XuQ: none; font-kerning: none;"> </span>
+                        </p>
+                        <p class="cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start para-style-body"
+                            style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --8sD0Kg: none; font-family: YAFdJjbTu24_0, _fb_, auto; --cyV3ZQ: 16px; --gJPlXQ: 1.4; --s8NbEA: p; line-height: 22px;">
+                            <span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); --Ys-XuQ: none; font-kerning: none;">kelancaran
+                                proyek.</span>
+                        </p>
+                        <p></p>
+                    </div>
+                    <div
+                        class="min-w-[300px] flex-shrink-0 p-8 border-2 border-on-surface-variant/10 hover:border-primary transition-colors flex flex-col items-center text-center">
+                        <div class="w-16 h-16 bg-surface-container-high flex items-center justify-center mb-6">
+                            <span class="material-symbols-outlined text-primary text-3xl">workspace_premium</span>
+                        </div>
+                        <h4 class="font-headline-sm text-headline-sm mb-4"><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(56,56,56,var(--O42jJQ,1)); caret-color: rgb(56, 56, 56); --Ys-XuQ: none; font-kerning: none;">Berpengalaman</span>
+                        </h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant"><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --Ys-XuQ: none; font-kerning: none;">Memiliki
+                                pengalaman dalam menangani&nbsp;</span></p>
+                        <div><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --Ys-XuQ: none; font-kerning: none;">berbagai
+                                kebutuhan instalasi dan sistem bangunan.</span></div>
+                        <p></p>
+                    </div>
+                    <div
+                        class="min-w-[300px] flex-shrink-0 p-8 border-2 border-on-surface-variant/10 hover:border-primary transition-colors flex flex-col items-center text-center">
+                        <div class="w-16 h-16 bg-surface-container-high flex items-center justify-center mb-6">
+                            <span class="material-symbols-outlined text-primary text-3xl">verified</span>
+                        </div>
+                        <h4 class="font-headline-sm text-headline-sm mb-4"><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(56,56,56,var(--O42jJQ,1)); caret-color: rgb(56, 56, 56); --Ys-XuQ: none; font-kerning: none;">Terpercaya</span>
+                        </h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant"><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --Ys-XuQ: none; font-kerning: none;">Menjunjung
+                                komitmen, tanggung jawab,</span></p>
+                        <div><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --Ys-XuQ: none; font-kerning: none;">&nbsp;dan
+                                kualitas dalam setiap pekerjaan.</span></div>
+                        <p></p>
+                    </div>
+                    <div
+                        class="min-w-[300px] flex-shrink-0 p-8 border-2 border-on-surface-variant/10 hover:border-primary transition-colors flex flex-col items-center text-center">
+                        <div class="w-16 h-16 bg-surface-container-high flex items-center justify-center mb-6">
+                            <span class="material-symbols-outlined text-primary text-3xl">verified</span>
+                        </div>
+                        <h4 class="font-headline-sm text-headline-sm mb-4"><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(56,56,56,var(--O42jJQ,1)); caret-color: rgb(56, 56, 56); --Ys-XuQ: none; font-kerning: none;">Bergaransi</span>
+                        </h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant"><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --Ys-XuQ: none; font-kerning: none;">Memberikan
+                                jaminan pekerjaan sebagai bentuk</span></p>
+                        <div><span
+                                class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"
+                                style="color: rgba(0,0,0,var(--O42jJQ,1)); caret-color: rgb(0, 0, 0); --Ys-XuQ: none; font-kerning: none;">&nbsp;komitmen
+                                terhadap kepuasan pelanggan.</span></div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 5: Services & Why Choose Us (SCREEN_4) -->
+        <section class="py-12 md:py-24 bg-surface-bright transition-all duration-1000 opacity-100 translate-y-0"
+            id="layanan">
+            <div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop">
+                <header class="mb-12 md:mb-24 flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+                    <div class="md:flex-grow">
+                        <div class="inline-block bg-primary text-on-primary px-3 py-1 font-label-md text-label-md mb-6">
+                            ENGINEERING &amp; ELECTRICAL SOLUTIONS
+                        </div>
+                        <h2
+                            class="font-display-lg text-3xl sm:text-4xl md:text-5xl lg:text-display-lg uppercase leading-none mb-8">
+                            Layanan <span class="text-primary-container">Kami</span></h2>
+                    </div>
+                    <div class="flex justify-end">
+                        <div
+                            class="w-24 h-24 bg-on-background flex items-center justify-center border-4 border-primary-container">
+                            <span class="material-symbols-outlined text-primary-container text-5xl">bolt</span>
+                        </div>
+                    </div>
+                </header>
+                <div class="grid grid-cols-1 gap-8 mb-32">
+                    <!-- Electrical Service -->
+                    <div
+                        class="group relative overflow-hidden border-2 border-on-background bg-white p-6 sm:p-10 hover:bg-on-background transition-all duration-300 flex flex-col md:flex-row items-center gap-8 hard-shadow">
+                        <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none">
+                            <span class="material-symbols-outlined text-9xl">electric_bolt</span>
+                        </div>
+                        <div class="relative z-10 flex flex-col h-full">
+                            <span
+                                class="font-label-md text-label-md text-primary mb-4 block tracking-widest">SERVICE_01</span>
+                            <h3
+                                class="font-headline-md text-headline-md uppercase mb-6 group-hover:text-white transition-colors">
+                                Instalasi elektrikal</h3>
+                            <p
+                                class="font-body-md text-body-md text-secondary group-hover:text-surface-variant mb-8 flex-grow">
+                                Menyediakan layanan instalasi sistem kelistrikan untuk mendukung kebutuhan oprasional
+                                bangunan, meliputi pemasangan instalasi listrik, panel listrik, sistem pencahayaan,
+                                dimmer lampu, serta berbagai aksesoris pendukung kelistrikan.</p>
+                            <div class="mt-auto">
+                                <div
+                                    class="w-12 h-12 flex items-center justify-center border-2 border-on-background group-hover:border-primary-container group-hover:bg-primary-container transition-all">
+                                    <span
+                                        class="material-symbols-outlined group-hover:text-on-primary-container">settings_input_component</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Maintenance -->
+                    <div
+                        class="group relative overflow-hidden border-2 border-on-background bg-primary-container p-6 sm:p-10 hover:bg-on-background transition-all duration-300 flex flex-col md:flex-row items-center gap-8 hard-shadow">
+                        <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none">
+                            <span class="material-symbols-outlined text-9xl text-on-primary-container">build</span>
+                        </div>
+                        <div class="relative z-10 flex flex-col h-full">
+                            <span
+                                class="font-label-md text-label-md text-on-primary-container font-bold mb-4 block tracking-widest">SERVICE_02</span>
+                            <h3
+                                class="font-headline-md text-headline-md uppercase text-on-primary-container group-hover:text-white mb-6 transition-colors">
+                                instalasi plumbing</h3>
+                            <p
+                                class="font-body-md text-body-md text-on-primary-container/90 group-hover:text-surface-variant mb-8 flex-grow">
+                                Menyediakan layanan instalasi sistem perpipaan untuk distribusi dan pembuangan air pada
+                                bangunan, termasuk pemasangan pipa air bersih, pipa air panas, pipa air bekas, water
+                                heater, closet, wastafel, dan urinoir.</p>
+                            <div class="mt-auto">
+                                <div
+                                    class="w-12 h-12 flex items-center justify-center border-2 border-on-primary-container group-hover:border-primary-container group-hover:bg-primary-container transition-all">
+                                    <span
+                                        class="material-symbols-outlined text-on-primary-container group-hover:text-on-primary-container">build</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Power Distribution -->
+                    <div
+                        class="group relative overflow-hidden border-2 border-on-background bg-white p-6 sm:p-10 hover:bg-on-background transition-all duration-300 flex flex-col md:flex-row items-center gap-8 hard-shadow">
+                        <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none">
+                            <span class="material-symbols-outlined text-9xl">account_tree</span>
+                        </div>
+                        <div class="relative z-10 flex flex-col h-full">
+                            <span
+                                class="font-label-md text-label-md text-primary mb-4 block tracking-widest">SERVICE_03</span>
+                            <h3
+                                class="font-headline-md text-headline-md uppercase mb-6 group-hover:text-white transition-colors">
+                                sistem tata udara</h3>
+                            <p
+                                class="font-body-md text-body-md text-secondary group-hover:text-surface-variant mb-8 flex-grow">
+                                Menyediakan layanan pemasangan sistem tata udara untuk menciptakan sirkulasi dan
+                                kenyamanan ruangan yang optimal, meliputi pemasangan ducting AC, ducting exhaust, fresh
+                                air, AC split, dan AC kaset.</p>
+                            <div class="mt-auto">
+                                <div
+                                    class="w-12 h-12 flex items-center justify-center border-2 border-on-background group-hover:border-primary-container group-hover:bg-primary-container transition-all">
+                                    <span
+                                        class="material-symbols-outlined group-hover:text-on-primary-container">hub</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Energy Management -->
+                    <div
+                        class="group relative overflow-hidden border-2 border-on-background bg-white p-6 sm:p-10 hover:bg-on-background transition-all duration-300 flex flex-col md:flex-row items-center gap-8 hard-shadow">
+                        <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none">
+                            <span class="material-symbols-outlined text-9xl">energy_savings_leaf</span>
+                        </div>
+                        <div class="relative z-10 flex flex-col h-full">
+                            <span
+                                class="font-label-md text-label-md text-primary mb-4 block tracking-widest">SERVICE_04</span>
+                            <h3
+                                class="font-headline-md text-headline-md uppercase mb-6 group-hover:text-white transition-colors">
+                                instalasi elektronik dan data</h3>
+                            <p
+                                class="font-body-md text-body-md text-secondary group-hover:text-surface-variant mb-8 flex-grow">
+                                Meyediakan layanan instalasi sistem elektronik dan komunikasi bangunan, termasuk
+                                pemasangan kabel data, kabel telepon, dan kabel sound sistem guna mendukung kebutuhan
+                                konektivitas dan komunikasi yang efektif.</p>
+                            <div class="mt-auto">
+                                <div
+                                    class="w-12 h-12 flex items-center justify-center border-2 border-on-background group-hover:border-primary-container group-hover:bg-primary-container transition-all">
+                                    <span
+                                        class="material-symbols-outlined group-hover:text-on-primary-container">monitoring</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-24">
+                    <div class="flex items-center gap-4 mb-12">
+                        <span class="w-12 h-1 bg-primary-container"></span>
+                        <h3 class="font-headline-md text-headline-md uppercase tracking-tight">Layanan Spesialis</h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:grid-cols-4">
+                        <!-- Fire Protection -->
+                        <div
+                            class="group relative overflow-hidden border-2 border-on-background bg-white p-6 sm:p-10 hover:bg-on-background transition-all duration-300 flex flex-col md:flex-row items-center gap-8 hard-shadow">
+                            <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none">
+                                <span class="material-symbols-outlined text-9xl">electric_bolt</span>
+                            </div>
+                            <div class="relative z-10 flex flex-col h-full">
+                                <span
+                                    class="font-label-md text-label-md text-primary mb-4 block tracking-widest">SERVICE_01</span>
+                                <h3
+                                    class="font-headline-md text-headline-md uppercase mb-6 group-hover:text-white transition-colors">
+                                    f&amp;b restoran dan kafe</h3>
+                                <p
+                                    class="font-body-md text-body-md text-secondary group-hover:text-surface-variant mb-8 flex-grow">
+                                    Spesialis instalasi MEP untuk restoran dan kafe, meliputi sistem listrik, tata udara
+                                    (HVAC), plumbing, exhaust kitchen, fire protection, serta utilitas pendukung yang
+                                    menunjang oprasional bisnis secara aman dan efisien.</p>
+                                <div class="mt-auto">
+                                    <div
+                                        class="w-12 h-12 flex items-center justify-center border-2 border-on-background group-hover:border-primary-container group-hover:bg-primary-container transition-all">
+                                        <span
+                                            class="material-symbols-outlined group-hover:text-on-primary-container">restaurant</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- HVAC -->
+                        <div
+                            class="group relative overflow-hidden border-2 border-on-background bg-primary-container p-6 sm:p-10 hover:bg-on-background transition-all duration-300 flex flex-col md:flex-row items-center gap-8 hard-shadow">
+                            <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none">
+                                <span class="material-symbols-outlined text-9xl text-on-primary-container">build</span>
+                            </div>
+                            <div class="relative z-10 flex flex-col h-full">
+                                <span
+                                    class="font-label-md text-label-md text-on-primary-container font-bold mb-4 block tracking-widest">SERVICE_02</span>
+                                <h3
+                                    class="font-headline-md text-headline-md uppercase text-on-primary-container group-hover:text-white mb-6 transition-colors">
+                                    retail mall fit out</h3>
+                                <p
+                                    class="font-body-md text-body-md text-on-primary-container/90 group-hover:text-surface-variant mb-8 flex-grow">
+                                    Menyediakan layanan pekerjaan MEP untuk kebutuhan fit out tenant mall, mulai dari
+                                    instalasi listrik, AC, plumbing, fire alarm, hingga koordinasi dengan manajemen
+                                    gedung sesuai standar dan regulasi yang berlaku.</p>
+                                <div class="mt-auto">
+                                    <div
+                                        class="w-12 h-12 flex items-center justify-center border-2 border-on-primary-container group-hover:border-primary-container group-hover:bg-primary-container transition-all">
+                                        <span
+                                            class="material-symbols-outlined text-on-primary-container group-hover:text-on-primary-container">store</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Security -->
+                        <div
+                            class="group relative overflow-hidden border-2 border-on-background bg-white p-6 sm:p-10 hover:bg-on-background transition-all duration-300 flex flex-col md:flex-row items-center gap-8 hard-shadow">
+                            <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none">
+                                <span class="material-symbols-outlined text-9xl">account_tree</span>
+                            </div>
+                            <div class="relative z-10 flex flex-col h-full">
+                                <span
+                                    class="font-label-md text-label-md text-primary mb-4 block tracking-widest">SERVICE_03</span>
+                                <h3
+                                    class="font-headline-md text-headline-sm uppercase mb-6 group-hover:text-white transition-colors">
+                                    <span style="font-weight: normal;" class="">perkantoran</span>
+                                </h3>
+                                <p
+                                    class="font-body-md text-body-md text-secondary group-hover:text-surface-variant mb-8 flex-grow">
+                                    Mengerjakan sistem MEP untuk area perkantoran modern dengan fokus pada kenyamanan,
+                                    efisiensi energi, keamanan, dan keandalan oprasional bangunan.</p>
+                                <div class="mt-auto">
+                                    <div
+                                        class="w-12 h-12 flex items-center justify-center border-2 border-on-background group-hover:border-primary-container group-hover:bg-primary-container transition-all">
+                                        <span
+                                            class="material-symbols-outlined group-hover:text-on-primary-container">apartment</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Lighting & Electrical Infrastructure -->
+                        <div
+                            class="group relative overflow-hidden border-2 border-on-background bg-white p-6 sm:p-10 hover:bg-on-background transition-all duration-300 flex flex-col md:flex-row items-center gap-8 hard-shadow">
+                            <div class="absolute top-0 right-0 w-32 h-32 opacity-10 pointer-events-none">
+                                <span class="material-symbols-outlined text-9xl">home_work</span>
+                            </div>
+                            <div class="relative z-10 flex flex-col h-full">
+                                <span
+                                    class="font-label-md text-label-md text-primary mb-4 block tracking-widest">SERVICE_04</span>
+                                <h3
+                                    class="font-headline-md text-headline-md uppercase mb-6 group-hover:text-white transition-colors">
+                                    apartemen</h3>
+                                <p
+                                    class="font-body-md text-body-md text-secondary group-hover:text-surface-variant mb-8 flex-grow">
+                                    Melayani pekerjaan MEP untuk proyek apartemen dan hunian bertingkat, termasuk sistem
+                                    kelistrikan, plumbing, HVAC, fire fighting, dan infrastruktur lainnya.</p>
+                                <div class="mt-auto">
+                                    <div
+                                        class="w-12 h-12 flex items-center justify-center border-2 border-on-background group-hover:border-primary-container group-hover:bg-primary-container transition-all">
+                                        <span
+                                            class="material-symbols-outlined group-hover:text-on-primary-container">home_work</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Why Choose Us -->
+                <section
+                    class="bg-on-background text-surface px-margin-mobile md:px-margin-desktop relative overflow-hidden transition-all duration-1000 opacity-100 translate-y-0 pt-16 md:pt-32 pb-16 md:pb-20 mt-12 md:mt-24">
+                    <!-- Watermark Background -->
+                    <div class="absolute -bottom-20 -right-20 opacity-5 pointer-events-none">
+                        <span class="material-symbols-outlined text-[400px]">verified</span>
+                    </div>
+                    <div class="relative z-10">
+                        <div
+                            class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 md:mb-16 gap-8">
+                            <div>
+                                <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase mb-2">
+                                    Mengapa Memilih ACG?</h2>
+                                <div class="h-1 w-48 bg-primary-container"></div>
+                            </div>
+                            <p class="font-body-md text-body-md text-surface-variant max-w-md">
+                                Komitmen kami terhadap standar internasional menjadikan kami mitra terpercaya untuk
+                                setiap skala proyek engineering.
+                            </p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                            <!-- Strength 1 -->
+                            <div
+                                class="p-6 border-l-2 border-primary-container bg-surface/5 hover:bg-surface/10 transition-colors">
+                                <span class="material-symbols-outlined text-primary-container text-4xl mb-4"
+                                    data-weight="fill">engineering</span>
+                                <h4 class="font-headline-sm text-headline-sm uppercase mb-3">Professionalism</h4>
+                                <p class="font-body-md text-body-md text-surface-variant">Tim ahli bersertifikasi dengan
+                                    pengalaman bertahun-tahun di lapangan.</p>
+                            </div>
+                            <!-- Strength 2 -->
+                            <div
+                                class="p-6 border-l-2 border-primary-container bg-surface/5 hover:bg-surface/10 transition-colors">
+                                <span class="material-symbols-outlined text-primary-container text-4xl mb-4"
+                                    data-weight="fill">high_quality</span>
+                                <h4 class="font-headline-sm text-headline-sm uppercase mb-3">High Quality</h4>
+                                <p class="font-body-md text-body-md text-surface-variant">Material berkualitas tinggi
+                                    dan pengerjaan presisi tanpa celah.</p>
+                            </div>
+                            <!-- Strength 3 -->
+                            <div
+                                class="p-6 border-l-2 border-primary-container bg-surface/5 hover:bg-surface/10 transition-colors">
+                                <span class="material-symbols-outlined text-primary-container text-4xl mb-4"
+                                    data-weight="fill">history_toggle_off</span>
+                                <h4 class="font-headline-sm text-headline-sm uppercase mb-3">On Time Delivery</h4>
+                                <p class="font-body-md text-body-md text-surface-variant">Manajemen timeline yang ketat
+                                    untuk memastikan proyek selesai sesuai jadwal.</p>
+                            </div>
+                            <!-- Strength 4 -->
+                            <div
+                                class="p-6 border-l-2 border-primary-container bg-surface/5 hover:bg-surface/10 transition-colors">
+                                <span class="material-symbols-outlined text-primary-container text-4xl mb-4"
+                                    data-weight="fill">health_and_safety</span>
+                                <h4 class="font-headline-sm text-headline-sm uppercase mb-3">Safety First</h4>
+                                <p class="font-body-md text-body-md text-surface-variant">Prioritas utama pada
+                                    keselamatan kerja dan kepatuhan standar K3.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- Section 6: CTA (SCREEN_4) -->
+        <section class="py-12 md:py-24 transition-all duration-1000 opacity-100 translate-y-0 px-margin-mobile md:px-0">
+            <div class="max-w-3xl mx-auto border-4 border-on-background p-6 sm:p-12 bg-white diagonal-cut text-center">
+                <h2 class="font-headline-md text-2xl sm:text-headline-md uppercase mb-6">Siap Memulai Proyek Anda?</h2>
+                <p class="font-body-lg text-body-lg text-secondary mb-10">
+                    Hubungi departemen teknis kami untuk mendapatkan penawaran profesional dan konsultasi gratis
+                    mengenai kebutuhan sistem kelistrikan Anda.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="Compro - PT ANDALAN CAHAYA GEMILANG.pdf" download="Compro - PT ANDALAN CAHAYA GEMILANG.pdf"
+                        class="bg-on-background text-white px-10 py-4 font-label-md text-label-md uppercase font-bold hover:bg-primary-container hover:text-on-primary-container transition-colors inline-block text-center">
+                        Download Company Profile
+                    </a>
+                    <a class="border-2 border-on-background text-on-background px-10 py-4 font-label-md text-label-md uppercase font-bold hover:bg-surface-container-highest transition-colors inline-block"
+                        href="#hubungi-kami">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Section 7: Attachments (SCREEN_2) -->
+        <section
+            class="py-12 md:py-24 border-t border-outline-variant transition-all duration-1000 opacity-100 translate-y-0"
+            id="lampiran">
+            <div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop">
+                <div
+                    class="flex flex-col sm:flex-row sm:justify-between sm:items-end mb-8 md:mb-12 border-b-2 border-outline-variant pb-4 gap-4">
+                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase">Lampiran</h2>
+                    <span class="font-label-md text-label-md text-tertiary">[ SEC_01 // ATTACHMENTS ]</span>
+                </div>
+                <div
+                    class="flex overflow-x-auto gap-8 pb-8 scrollbar-thin scrollbar-thumb-primary scrollbar-track-surface-container">
+                    <!-- Gallery Item 1 (Existing) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBH19hwAjaPGoqqhdkONpLfxQUF2Y7-46-qj26K46C_BK9AT3-GpxhNVnj8vCAD1dVOhQ99K3eTmJOVFitsAb0bnF965vqNuEnWoMCiZuPuQ7zJ9oxyqyYEAlJ1uhURn_r3KQfIY3IGKYmK5b6WN6-2dtQnBu45h9th77VSE80074odymyCsMQUrvI0LFIY_lhDvDnt1PEEVoAXtdTXVNrA3d-7FZ53ViUJXcUrbgIExhIT3diBcI_d3UIR6lIQiBTW7hkgjVTWgeU')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Electrical</span>
+                            <h3 class="font-headline-sm text-lg text-white">Instalasi Gardu Induk</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 2 (Existing) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCBJdX-iFjt2TfPUKdtj0ILJUoKy_BNaM5vW5GH-fQbWxY7M2XzFMGqRyoixZoUcqWdleN0XomjQkir2oD5BftSxaAAW2Yz3x_GB4LOZ3OD04b_rHN2AwX_SgEL--AFg5LJ6-a-YeOPy3V0sABkSk28iVFzh6YWyV2BYREL8ts5SoKq0GCWAnlrbUd50O_eeCL_kha9VK0HJ8rLlb2lQV9h6JFDngCOAbM5XbaXgfE6aNrIqh9KUJ70XWwnEcMn5-HsO2pZJHJp8Ew')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">HVAC</span>
+                            <h3 class="font-headline-sm text-lg text-white">Sistem Tata Udara Industri</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 3 (Existing) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAHR0o0VeOxHkQ6T-IvfUrpRauXugCNZ6lU545MnYfO87SPe-JjeTlQBX_-E4m6_2oWu7IZF9PgdqZj3weJZ8cNLgO697KOMVSFAPSwlGbg84Th4RmPKCda3FcWjVVlyYPkPI6j8Sv4cLUFBnmBKdV7S9QkRF9yT_nx6j9-AT2a8IpV0eypZ4amS4rq3ImNiYIGp_ErLxznV3vJWtGXAo6O0xan-7MQXoaZ8CwtXiZZ8IR6DtUf6no4KrEluyQdFWp1goD3MAWUq6c')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Power</span>
+                            <h3 class="font-headline-sm text-lg text-white">Panel Listrik High-Voltage</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 4 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDrF2eJCyr8_G0ko_HYs6slQJ5IaPV1YYRET_unHKazeimDQgrLAe74KVImLJyFOnJy1wEdM5weF9-fC5zsQVGOVEOdBFnahXw-7QYCBPxMHmerG7fh0RUM_IDBh0ekBNq9WeB8MtIWPr92k6_-VjYUvFOxb4bNe2HP815pw7ZaaO356Luv2mk1kIbUMgRFvoEDxjjDtNHfT6dDUr4s3UQBKePk6bQLe9idq0O1J58W0QBJR8EvBwtOGK4d3vhRkBfn80ahRBD0zsI')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Plumbing</span>
+                            <h3 class="font-headline-sm text-lg text-white">Instalasi Pipa Industri</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 5 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuClhKhlDl4CxEFw0OugLspzYegeyO5dTfpzYLon28l4t2t92clBvYzH6-Ti9QLWo808uC0b97jPDeijD7X3vqKZNJmZc8emsP_5Uj8mTUWugr72MmbuTXJSGUuTBaO8NI8239HHTkVVCeC7xfSzmrtcrU5cEdWxs9FlltSGhx8Pt5G_M6a4pghIfLVmDbeMM8JomsQw7EAkx5rnwSvRWXoX_MeLsDUEJHo-xc9qwkIwWTPlSV7u-YtC0ED-dnCYbRNrzgQtlFn6HDg')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Electrical</span>
+                            <h3 class="font-headline-sm text-lg text-white">Unit Distribusi Daya</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 6 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD7M9TPNbgrNqmuwQRyG5vj-AETWk2QpVIPorOI9iGym3S4CpfSr4kLDazNzmDU2KUGDDJ0zsN-6o5ZXhqzprfpLx76S2yDguEj9WOzbIxrOzQB2zIrMkoNLZ5RTMHzvalCHR7IHWHi8_eepLaf9V5XpSrp64cpbn4_EA38SHFevTk5WQbWzsu6QFJHBT4-qh2e1wNl5Ro0MibCvxkbemePKhRCUxKIvtIJDNNQH-xSgh0japE0OjYB5zXFc6G5nwVbU8WrXY7eFH8')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Mechanical</span>
+                            <h3 class="font-headline-sm text-lg text-white">Sistem Chiller Industri</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 7 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCdmoHQzMwBvR4rd5Sla3vQ5TcuQyXwNa_Pcn25YizCEXYkW5pqZO9VgAXEaGG2rQLu97hl9eS6noNg7Hi9LFq-Tb0EkLASpzxPbKdc4yACY2Q5BGbRE072rp3Iz327UOMjR9UsupainPX5JZEDIGh3txvkkNszSJ-HfXxRsRlW14PL9wStSp9CVv0JhUbuMZf5GVF3bFmJsZ4Bbxaby5V4bOJLJdnAaihtapR9ByBUea_Nizh4Fuv6BQVVm8GE6I96T9B4V0DAAi8')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">MEP
+                                Works</span>
+                            <h3 class="font-headline-sm text-lg text-white">Pekerjaan Site MEP</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 8 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBoYVXCTxrrw57NS3o4REnB0zpD4tdSuTEYgDv11aDrxftHv0_7tS-LNN53BoFDTm66Qi69nSAeeGnkgzVb08HTAUoS0Ub58xUmoVqKNjLjXrcJCOD4FVO35uCjJYD92zgkaZ6gPgl7qK9h7IqhgEpjo2w1KngJU4y7EcrBDTGOb1oOJJIh10AbIKEQDs1gJAmcMmJCrFRcz3e6pJZd1FZ8tvIo4McVx-ZLeg5MHDDH8bpk7niChAWcyIxgFXt0RItw4rLDMMsSv60')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Control</span>
+                            <h3 class="font-headline-sm text-lg text-white">Panel Kontrol Kompleks</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 9 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBuRaVvWaxX5vQam-QThb9T-QIhEnBhBXy6CLNIRZJVcHVVLjFDo2XxZY0ePqlgebWP_G1UxAnggSevyeD0DPbw4MsBki_PRFOwd0VK_ZLMaOkYLaN8rjEJOod0EwrrDzusRekDF1So4j5VCArgkx7hS0MNIJjoU8zvY82el4UdCoMsF1UfFAYlbXbgMib9BverUjA1xv4Oqgh7KHmvMRlVGvfiet3iLNZSgx1PeYXLjJ7uNjA-AYr3Ab0V53GgN6l6xneWBhp10os')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Safety</span>
+                            <h3 class="font-headline-sm text-lg text-white">Komponen Tegangan Tinggi</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 10 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCxSWsNBc1eKpwAQ4hF_Nkm0xFUoaiyXov0hCBaHXo6z-nsgKia2hQHbyjvw9NernGDIhyEYyNYW9oWs7HRdnwE-vUJJIWKMF0espOkul9swBBXtccLCUln4Ry0CAyBgESkCJSzZcVUAA-fnH_YQ_pPlnHZxfMQWGkKB3iI_rMROv1rnHo0gEuSqL9t0WKnNsrri3EnML8GDrTPK6kWj7c5MUc4ur48smmKxtKxMAceo50z2EvLi17w0wU40yf_mz-u9s4pa0HtN-8')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">HVAC</span>
+                            <h3 class="font-headline-sm text-lg text-white">Instalasi Atap Komersial</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 11 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC5OFKgaqo1g_5ecIKnxL3_53oUMmJ8y-uG1jDMrHG2eY0U2l_4PnIiKisEnqXX0e3eEJHhcFzmFxnxlzHDd5WZ8ULEZTUTCogaE8_fH0QKGfZANCprtf8yreBLwOstQ47_E12FTV8W04I0X3wpyevaTZIdjdKm_BATXR6kpkDJxr9ac3p8THeKFXD6NSrYtq6VdbNZkfDyrvDv0SemOM7NNKwp40giF0ZrvaBoEtRju9qGD_H8-RlXXbmwC3hEsSdswkmPfqF1h4g')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Electrical</span>
+                            <h3 class="font-headline-sm text-lg text-white">Transformator Tegangan Tinggi</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 12 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCi_HyRux38sUBRqe53na8jbuwNg02YPg6kfM6vmdx2C3f3A5sq8V_IefHAGKtHdT5PzW-hOhrghLGXQm0t1CZnwvmjzRCzfETDfDKBb_Xmq6m6SMr5J5-vpDjuHt2hbHjyhX618zEt_TUgUWlbHRzUgQyWP0Hy0QmP2X-JNeLDBlHmA1o-ZNrHNeWdH10GOIuHg5LYpiWTJt-v8jOBCTqHKq9AAcsWHXuGYhT6VauEqQKISi2H1ACNCcYo8LOtA7fjBvOu9haSmuE')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Mechanical</span>
+                            <h3 class="font-headline-sm text-lg text-white">Gigi Presisi Industri</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 13 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCcFa16TriPzr26olIP01fd7dvLOh0WdqPuJRurot6B873cDX9DiBNZcZcyc725byzfanQW5_zLRRzbr_UARzvfCkEyykFvr3_8gNXMnAnN-Eyfd_Gy6dJH9ekIcG_1Fhhp30CYdD4vMvv23jCvwDLnqt7M7ZnTyL72DzbF__F0AU-FMZhMW9pJcNBAijDOSLgjUik8tu_eqN27GHlQNez6y5fdYj6TqyqY5FPYJWkRWAMUPBzKSyqGKFGuxdvTEiQNALOrAFhUupE')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">HVAC</span>
+                            <h3 class="font-headline-sm text-lg text-white">Sistem Ventilasi Modern</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 14 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDntLO7LKtBfdK-bvCpV5teN0q-o1tFNoUzDt64vkKrFqq7ARhTB42SEU434bvoV8ojad8wDbXXPgZhIpOe7nNUuEOfH-heWqfwT9UIQTpSDCDAPuM9a5lL-CZQIvQLT1a8Cl06K6Oc6FhlSAAzXAygWPCWg9eGC_mG1bClvBYaBJFJBKotpGY1ZYrEaMTb9wlVb1yZLTxU75k5OYszltlJenPZXeDDaB4-i2EmnipIgW1DWC3jBuLkfDiEhIYslmzeE1zRh7Gcq-w')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Plumbing</span>
+                            <h3 class="font-headline-sm text-lg text-white">Sistem Pompa Air Industri</h3>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 15 (New) -->
+                    <div
+                        class="min-w-[320px] flex-shrink-0 group relative overflow-hidden border-2 border-on-background bg-on-background">
+                        <div class="aspect-[4/3] w-full relative">
+                            <div class="absolute inset-0 bg-cover bg-center opacity-90 group-hover:scale-105 transition-transform duration-500"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuABw3n3iFp6uzSeqzPpuyX02IcscjbTTHBLXp19kJwuF3CR65AaAa-1fvfOdygBcWoohTtqZ7vRhlC7Oe98EoZ9n4utahWCuzXK33urfcP8J48qV3N22K4nR6HUWmGXtzS7wzuYT4bUC4Dw1OHfSfSuCfV_gZD6b4qjRKbUuhw_yEAOSTt0qFALhJTLVfvGn_6a8zrFVneOhNs86Y2TLuMTysCcskbCKQsEwmcrc3WIYLrC2gW6tsFM_TstGoGXjyGmlL0JmkZNuY8')">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-4 w-full">
+                            <span
+                                class="inline-block bg-primary-container text-on-primary-container px-2 py-0.5 font-label-md text-xs mb-2 uppercase tracking-tighter">Control</span>
+                            <h3 class="font-headline-sm text-lg text-white">Panel Kontrol Elektrik</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 8: Contact Form (SCREEN_2) -->
+        <section class="py-12 md:py-24 bg-surface-bright transition-all duration-1000 opacity-100 translate-y-0"
+            id="hubungi-kami">
+            <div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop">
+                <div
+                    class="flex flex-col sm:flex-row sm:justify-between sm:items-end mb-8 md:mb-12 border-b-2 border-outline-variant pb-4 gap-4">
+                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase">Hubungi Kami</h2>
+                    <span class="font-label-md text-label-md text-tertiary">[ SEC_02 // CONTACT ]</span>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20">
+                    <div>
+                        <h3 class="font-headline-sm text-headline-sm mb-8">Kirimkan Pesan Anda</h3>
+                        <form class="space-y-6" id="contactForm">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="space-y-2">
+                                    <label class="font-label-md text-sm uppercase text-on-surface-variant">Nama
+                                        Lengkap</label>
+                                    <input
+                                        class="w-full border-2 border-on-background bg-surface px-4 py-3 focus:border-primary-container outline-none transition-colors"
+                                        placeholder="Nama Anda" required="" type="text">
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="font-label-md text-sm uppercase text-on-surface-variant">Alamat
+                                        Email</label>
+                                    <div class="relative">
+                                        <div
+                                            class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                            <span
+                                                class="material-symbols-outlined text-primary-container text-xl">mail</span>
+                                        </div>
+                                        <input
+                                            class="w-full border-2 border-on-background bg-surface pl-10 pr-4 py-3 focus:border-primary-container outline-none transition-colors"
+                                            placeholder="example@gmail.com" required="" type="email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+                                <label class="font-label-md text-sm uppercase text-on-surface-variant">Subjek</label>
+                                <input
+                                    class="w-full border-2 border-on-background bg-surface px-4 py-3 focus:border-primary-container outline-none transition-colors"
+                                    placeholder="Permintaan Penawaran Proyek" required="" type="text">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="font-label-md text-sm uppercase text-on-surface-variant">Pesan</label>
+                                <textarea
+                                    class="w-full border-2 border-on-background bg-surface px-4 py-3 focus:border-primary-container outline-none transition-colors"
+                                    placeholder="Tuliskan detail pertanyaan atau kebutuhan Anda..." required=""
+                                    rows="5"></textarea>
+                            </div>
+                            <button
+                                class="w-full bg-primary-container text-on-primary-container py-4 font-label-md text-lg uppercase font-black hard-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
+                                type="submit">
+                                KIRIM PESAN SEKARANG
+                            </button>
+                        </form>
+                    </div>
+                    <div class="flex flex-col gap-12">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="bg-on-background p-6 text-surface">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <span class="material-symbols-outlined text-primary-container">chat</span>
+                                    <span class="font-label-md text-xs uppercase text-surface-variant">WhatsApp
+                                        (Fauzi)</span>
+                                </div>
+                                <p class="font-headline-sm text-xl">0857-7069-9012</p>
+                            </div>
+                            <div class="bg-on-background p-6 text-surface">
+                                <div class="flex items-center gap-3 mb-4"><span
+                                        class="material-symbols-outlined text-primary-container">chat</span><span
+                                        class="font-label-md text-xs uppercase text-surface-variant">WhatsApp
+                                        business</span></div>
+                                <p class="font-headline-sm text-xl">0858-8103-6096</p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-surface border-2 border-on-background p-1 hard-shadow-primary relative overflow-hidden">
+                            <div class="h-[300px] bg-outline-variant relative">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d676.0695858177907!2d106.76461730021605!3d-6.193780678282248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1785172820696!5m2!1sid!2sid"
+                                    class="w-full h-full grayscale hover:grayscale-0 transition-all duration-500" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                            </div>
+                            <div class="p-6">
+                                <h4 class="font-label-md font-bold mb-2 uppercase">Lokasi Kantor Utama</h4>
+                                <p class="font-body-md text-on-surface-variant">
+                                    Jl. F Perjuangan, Kebon Jeruk, Jakarta Barat<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-on-background border-t-4 border-primary text-surface-variant mb-0">
+        <div
+            class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-margin-mobile md:px-margin-desktop py-10 md:py-16 max-w-max-width mx-auto">
+            <div class="space-y-6">
+                <div class="font-headline-md text-headline-md font-bold text-primary">ACG</div>
+                <p class="font-body-md leading-relaxed">
+                    PT ANDALAN CAHAYA GEMILANG (ACG) adalah perusahaan yang bergerak di bidang instalasi kelistrikan,
+                    plumbing dan pemipaan, instalasi tata udara (AC, exhaust dan fresh air).</p>
+
+            </div>
+            <div class="space-y-6">
+                <h4
+                    class="font-label-md text-white uppercase tracking-widest border-b border-primary-container inline-block pb-2">
+                    Navigasi Cepat</h4>
+                <ul class="space-y-3 font-body-md">
+                    <li class=""><a class="hover:text-primary transition-all underline" href="#home">Beranda</a></li>
+                    <li class=""><a class="hover:text-primary transition-all underline" href="#tentang-kami">Tentang
+                            Kami</a></li>
+                    <li class=""><a class="hover:text-primary transition-all underline"
+                            href="#keunggulan-kami">Keunggulan</a></li>
+                    <li class=""><a class="hover:text-primary transition-all underline" href="#layanan">Layanan</a></li>
+                    <li class=""><a class="hover:text-primary transition-all underline" href="#lampiran">Lampiran</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="space-y-6">
+                <h4
+                    class="font-label-md text-white uppercase tracking-widest border-b border-primary-container inline-block pb-2">
+                    Status Operasional</h4>
+                <div class="bg-surface/10 p-4 border-l-4 border-primary">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="block w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                        <p class="text-surface font-label-md text-sm">SISTEM AKTIF &amp; TERHUBUNG</p>
+                    </div>
+                    <p class="text-xs">Tim kami siap melayani konsultasi teknis Anda pada jam kerja resmi.</p>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop py-8 border-t border-secondary text-center">
+            <p class="font-body-md text-sm">© 2026 PT ANDALAN CAHAYA GEMILANG. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Form submission animation and email sending
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Extract values from form fields
+                const nameInput = this.querySelector('input[placeholder="Nama Anda"]');
+                const emailInput = this.querySelector('input[placeholder="example@gmail.com"]');
+                const subjectInput = this.querySelector('input[placeholder="Permintaan Penawaran Proyek"]');
+                const messageInput = this.querySelector('textarea');
+
+                const name = nameInput ? nameInput.value : '';
+                const email = emailInput ? emailInput.value : '';
+                const subject = subjectInput ? subjectInput.value : '';
+                const message = messageInput ? messageInput.value : '';
+
+                const btn = this.querySelector('button');
+                const originalText = btn.textContent;
+                btn.textContent = 'MENGIRIM...';
+                btn.disabled = true;
+                btn.classList.add('opacity-50');
+
+                setTimeout(() => {
+                    btn.textContent = 'PESAN TERKIRIM!';
+                    btn.classList.replace('bg-primary-container', 'bg-green-600');
+                    btn.classList.replace('text-on-primary-container', 'text-white');
+
+                    // Construct mailto link and redirect
+                    const mailtoUrl = `mailto:andalancahayagemilang@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Nama Lengkap: ${name}\nAlamat Email: ${email}\n\nPesan:\n${message}`)}`;
+                    window.location.href = mailtoUrl;
+
+                    setTimeout(() => {
+                        btn.textContent = originalText;
+                        btn.disabled = false;
+                        btn.classList.remove('opacity-50');
+                        btn.classList.replace('bg-green-600', 'bg-primary-container');
+                        btn.classList.replace('text-white', 'text-on-primary-container');
+                        contactForm.reset();
+                    }, 3000);
+                }, 1500);
+            });
+        }
+
+        // Scroll reveal logic
+        const observerOptions = { threshold: 0.1 };
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            revealObserver.observe(section);
+        });
+
+        // Mobile menu toggle logic
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuClose = document.getElementById('menu-close');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        if (menuToggle && mobileMenu) {
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.remove('translate-x-full');
+            });
+        }
+
+        if (menuClose && mobileMenu) {
+            menuClose.addEventListener('click', () => {
+                mobileMenu.classList.add('translate-x-full');
+            });
+        }
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (mobileMenu) {
+                    mobileMenu.classList.add('translate-x-full');
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
