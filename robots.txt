@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://compro-pt-andalan-cahaya-gemilang.vercel.app/sitemap.xml
